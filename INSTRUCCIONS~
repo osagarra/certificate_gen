@@ -1,0 +1,15 @@
+
+
+Això és un programa que genera certificats d'events.
+
+Necessita:
+
+	Llista de noms (1 nom per fila): noms.txt
+	Llista de contribucions (1 per fia): posters.txt
+	Document latex amb el lloc per al nom marcat com a NNAMEE i el lloc del poster marcat com a PPOSTERR amb nom text.tex
+	Es poden adjuntar imatges
+	Els documents d'output es generen a la carpeta output
+	Les imatges del latex es posen a la carpeta fig
+	El document original ha d'anar a la mateixa carpeta
+	Per còrrer el programa: Obrir terminal a la carpeta i posar "python certificate_gen.py"
+	Per adjuntar firma, posar imatge en FORMAT PDF a la carpeta ./fig i adjutnar-la al tex.

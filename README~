@@ -1,0 +1,11 @@
+
+
+This is a program to do certificats at an industrial pace
+
+Needs:
+	Name list: names.txt (in format as in example names.txt)
+	List of contributions: posters.txt
+	.tex DOcument with the spot where "name" field should appear marked as NNAMEE and the contribution name (poster field) as PPOSTERR. Place the doc at the same folder
+	Output files are created in folder output	
+	Images can be added to the .tex doc: Put them in './fig'
+	To run the script: './python certificate_gen.py'
