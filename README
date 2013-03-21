@@ -1,4 +1,3 @@
-
 This is a program to do certificats at an industrial pace
 
 Needs:
@@ -10,3 +9,6 @@ Needs:
 	To run the script: './python certificate_gen.py'
 
 There are figures added for your convenience as example. (to run the example: just type './python certificate_gen.py' at the shell)
+
+
+You may use this program at your convenience. Please report any bugs you detect at "osagarra@ub.edu". No warranty is provided (of course!)
