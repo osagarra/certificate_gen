@@ -1,4 +1,4 @@
-This is a program to do certificats at an industrial pace
+This is a program to do congress-like certificates at an "industrial" pace
 
 Needs:
 	Name list: names.txt (in format as in example names.txt)
@@ -7,6 +7,8 @@ Needs:
 	Output files are created in folder output	
 	Images can be added to the .tex doc: Put them in './fig'
 	To run the script: './python certificate_gen.py'
+        YOu need to have pdflatex installed, if you have another latex compiler change the lines in the code as specified.
+        Under windows, see the code comments to make apropiate changes.
 
 There are figures added for your convenience as example. (to run the example: just type './python certificate_gen.py' at the shell)
 
