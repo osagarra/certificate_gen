@@ -52,10 +52,10 @@ def main():
 	except OSError:
 		pass
 	for tex in file_list:
-		os.system('pdflatex '+'./output_tex/'+tex+' '+tex.split('.')[0]+'.pdf')
-		os.system('mv '+tex.split('.')[0]+'.pdf'+' ./output_pdf/'+tex.split('.')[0]+'.pdf')
-		os.system('rm *.log')
-		os.system('rm *.aux')
+		os.system('pdflatex '+'./output_tex/'+tex+' '+tex.split('.')[0]+'.pdf') # substitue "pdflatex" y your favorite latex compiler
+		os.system('mv '+tex.split('.')[0]+'.pdf'+' ./output_pdf/'+tex.split('.')[0]+'.pdf') # for win users change "mv by move"
+		os.system('rm *.log') # for win users comment this line
+		os.system('rm *.aux') # for win users comment this line
 	return 0
 
 if __name__ == '__main__':
