@@ -1,19 +1,19 @@
-certificate_gen
+Certificate_gen
 ===============
 
-# Short description
+## Short description
 
 This is a certificate generator for a congress, in case you need to generate multiple certificates with different names and contributions.
 
 This is a program to do event-like certificates at an "industrial" pace
 
-# Dependencies
+## Dependencies
 
 	- PDFlatex (if you have another latex compiler change the lines in the code as specified).
 	- Python
 
 
-# Making it work...
+## Making it work...
 
 The program needs as input:
 	
@@ -30,7 +30,7 @@ $> ./python certificate_gen.py'
 ```
 
 
-# Examples
+## Examples
 
 There are figures added for your convenience as example. (to run the example: just type 
 
@@ -38,7 +38,7 @@ There are figures added for your convenience as example. (to run the example: ju
 $> ./python certificate_gen.py'
 ```
 
-# Known issues and bugs and license and so on...
+## Known issues and bugs and license and so on...
 
 You may use this program at your convenience. Please report any bugs you detect at "osagarra@ub.edu". Obviously, no warranty is provided or whatsoever.
 If you run it under windows, see the comments directly on the code to make appropriate changes...
