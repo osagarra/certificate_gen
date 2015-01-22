@@ -32,7 +32,7 @@ $> ./python certificate_gen.py'
 
 ## Examples
 
-There are figures added for your convenience as example. (to run the example: just type 
+There are figures added for your convenience as example. To run the example, just type at the shell: 
 
 ```
 $> ./python certificate_gen.py'
